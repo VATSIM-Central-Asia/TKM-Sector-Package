@@ -1,9 +1,9 @@
-RecentFiles	Recent1	\TKM\ASR\Turkmenistan.asr
-RecentFiles	Recent2	\TKM\ASR\Ashgabat_GMC.asr
-RecentFiles	Recent3	\TKM\ASR\Dashoguz_GMC.asr
-RecentFiles	Recent4	\TKM\ASR\Turkmenabat_GMC.asr
-RecentFiles	Recent5	\TKM\ASR\Turkmenbashi_GMC.asr
-RecentFiles	Recent6	\TKM\ASR\Kerki_GMC.asr
+RecentFiles	Recent1	\TKM\ASR\ACC\Turkmenistan.asr
+RecentFiles	Recent2	\TKM\ASR\GMC\Ashgabat_GMC.asr
+RecentFiles	Recent3	\TKM\ASR\GMC\Dashoguz_GMC.asr
+RecentFiles	Recent4	\TKM\ASR\GMC\Turkmenabat_GMC.asr
+RecentFiles	Recent5	\TKM\ASR\GMC\Turkmenbashi_GMC.asr
+RecentFiles	Recent6	\TKM\ASR\GMC\Kerki_GMC.asr
 Settings	AselKey	5111808
 Settings	FreqKey	3604480
 Settings	airlines	\TKM\ICAO\ICAO_Airlines.txt
@@ -32,27 +32,27 @@ Sounds	Sound15	\TKM\Sounds\new_atis.wav
 Sounds	Sound16	\TKM\Sounds\handoff_refused.wav
 Sounds	Sound17	\TKM\Sounds\pointout.wav
 Sounds	Sound18	\TKM\Sounds\startup.wav
-Settings	SettingsfileSIL	\TKM\Settings\InboundList.txt
-Settings	SettingsfileSEL	\TKM\Settings\ExitList.txt
-Settings	SettingsfileDEP	\TKM\Settings\DepartureList.txt
-Settings	SettingsfileARR	\TKM\Settings\ArrivalList.txt
-Settings	SettingsfileSYMBOLOGY	\TKM\Settings\Symbology.txt
+Settings	SettingsfileSIL	\TKM\Settings\TKM_Lists.txt
+Settings	SettingsfileSEL	\TKM\Settings\TKM_Lists.txt
+Settings	SettingsfileDEP	\TKM\Settings\TKM_Lists.txt
+Settings	SettingsfileARR	\TKM\Settings\TKM_Lists.txt
+Settings	SettingsfileSYMBOLOGY	\TKM\Settings\TKM_Settings.txt
 Settings	SettingsfileVOICE	\TKM\Settings\VoiceChannels.txt
-Settings	SettingsfilePROFILE	\TKM\Settings\LoginProfiles.txt
-Settings	SettingsfileTAGS	\TKM\Settings\TAG.txt
-Settings	SettingsfilePLUGINS	\TKM\Settings\Plugin.txt
-Settings	Settingsfile	\TKM\Settings\General.txt
-Settings	SettingsfileVCCS	\TKM\Settings\VCCS.txt
-Settings	SettingsfileFP	\TKM\Settings\FPList.txt
-Settings	SettingsfileCONFLICT	\TKM\Settings\ConflictList.txt
-Settings	SettingsfilePILOTING	\TKM\Settings\PilotingList.txt
-Settings	SettingsfileORIGPLANE	\TKM\Settings\OriginPlaneList.txt
-Settings	SettingsfileSTUP	\TKM\Settings\StartupList.txt
-Settings	SettingsfileTAXIOUT	\TKM\Settings\TaxioutList.txt
-Settings	SettingsfileTAKEOFF	\TKM\Settings\TakeoffList.txt
-Settings	SettingsfileADCS	\TKM\Settings\ADCSectorList.txt
-Settings	SettingsfileTAXIIN	\TKM\Settings\TaxiinList.txt
-Settings	SettingsfileSCREEN	\TKM\Settings\Screen.txt
+Settings	SettingsfilePROFILE	\TKM\Settings\TKM_Profiles.txt
+Settings	SettingsfileTAGS	\TKM\Settings\TKM_TAGs.txt
+Settings	SettingsfilePLUGINS	\TKM\Settings\TKM_Plugins.txt
+Settings	Settingsfile	\TKM\Settings\TKM_Settings.txt
+Settings	SettingsfileVCCS	\TKM\Settings\TKM_VCCS_Profile.txt
+Settings	SettingsfileFP	\TKM\Settings\TKM_Lists.txt
+Settings	SettingsfileCONFLICT	\TKM\Settings\TKM_Lists.txt
+Settings	SettingsfilePILOTING	\TKM\Settings\TKM_Lists.txt
+Settings	SettingsfileORIGPLANE	\TKM\Settings\TKM_Lists.txt
+Settings	SettingsfileSTUP	\TKM\Settings\TKM_Lists.txt
+Settings	SettingsfileTAXIOUT	\TKM\Settings\TKM_Lists.txt
+Settings	SettingsfileTAKEOFF	\TKM\Settings\TKM_Lists.txt
+Settings	SettingsfileADCS	\TKM\Settings\TKM_Lists.txt
+Settings	SettingsfileTAXIIN	\TKM\Settings\TKM_Lists.txt
+Settings	SettingsfileSCREEN	\TKM\Settings\TKM_Settings.txt
 TeamSpeakVccs	Ts3DialogLeft	1000
 TeamSpeakVccs	Ts3DialogTop	399
 TeamSpeakVccs	Ts3DialogRight	1808
@@ -64,7 +64,7 @@ Plugins	Plugin0	\TKM\Plugins\TopSky\TopSky.dll
 Plugins	Plugin1	\TKM\Plugins\Ground-Radar-Plugin\GRplugin.dll
 Plugins	Plugin2	\TKM\Plugins\AfvEuroScopeBridge.dll
 Plugins	Plugin3	\TKM\Plugins\Timer\ESTimers.dll
-Plugins	Plugin4	\TKM\Plugins\Discord\DiscordEuroscope.dll
+Plugins	Plugin4	\TKM\Plugins\DiscordEuroscope\DiscordEuroscope.dll
 Plugins	Plugin5	\TKM\Plugins\VATRUS Slots System\VSS.dll
 Plugins	Plugin0Display0	Standard ES radar screen
 Plugins	Plugin1Display1	Standard ES radar screen
@@ -73,5 +73,3 @@ Plugins	Plugin3Display0	Ground Radar display
 Plugins	Plugin3Display1	Standard ES radar screen
 Plugins	Plugin5Display0	Standard ES radar screen
 Plugins	Plugin5Display1	Ground Radar display
-LastSession	atis_freq4	118000
-Settings	sector	\TKM-Development-Package_20251004175034-251001-0001.sct
