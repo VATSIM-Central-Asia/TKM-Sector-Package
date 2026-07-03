@@ -5,9 +5,9 @@ Full package is available on [files.aero-nav.com](https:/files.aero-nav.com/TKM)
 
 # How to contribute?
 To suggest your changes for the sector package simply make relevant changes in your fork and create pull request with full description of the proposed changes.
-We would also really appreciate your help with the already known [issues](https://github.com/users/ziplock1/projects/5/views/2)
+We would also really appreciate your help with the already known [issues](https://github.com/orgs/VATSIM-Central-Asia/projects/11)
 > [!TIP]
-> If you are new to sector development, then check our [wiki](https://github.com/ziplock1/TKM-Sector-Package/wiki) for more information!
+> If you are new to sector development, then check our [wiki](https://github.com/VATSIM-Central-Asia/TKM-Sector-Package/wiki) for more information!
 
 # Credits
 **Nikita Zikeev (1475694) - ULLL**
